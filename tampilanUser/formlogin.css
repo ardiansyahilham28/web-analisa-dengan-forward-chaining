@@ -1,0 +1,134 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('/tampilanAwal/bg2.jpeg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  width: 400px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 1.8em;
+  margin: 0;
+  color: #fff;
+}
+
+header p {
+  font-size: 1em;
+  color: #ddd;
+}
+
+main {
+  text-align: center;
+}
+
+.container .register-box {
+  display: none;
+  width: 96%;
+  
+  
+  
+}
+
+.login-box {
+  display: block;
+}
+
+.login-box h2{
+  padding-top: 25px;
+  padding-bottom: 0px;
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+label {
+  margin-top: 10px;
+  color: #fff;
+}
+
+input[type='text'],
+input[type='password'],
+input[type='date'] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.5);
+  color: #333;
+}
+
+.gender-options {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.gender-options input[type='radio'] {
+  margin-right: 5px;
+}
+
+.gender-options label {
+  margin-right: 15px;
+  color: #fff;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: #76abae;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+a {
+  color: #007bff;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  color: #ddd;
+  margin-top: 20px;
+  font-size: 0.8em;
+}

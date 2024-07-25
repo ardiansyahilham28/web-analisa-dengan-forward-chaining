@@ -1,0 +1,96 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background: url('/tampilanAwal/bg2.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+}
+
+.container {
+    width: 25%;
+    height: 65%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 50px;;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 40px;
+    line-height: 1px;
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+label, input, textarea {
+   display: flex;
+    width: 100%;
+    margin: 25px 0;
+    font-size: 18px;
+    
+}
+
+input, textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#gejala-button {
+    background: #2a9c2e;
+    color: white;
+    border: none;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+.notification {
+    display: none;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #4CAF50;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.notification button {
+    background: #fff;
+    color: #4CAF50;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.notification button:hover {
+    background: #f1f1f1;
+}

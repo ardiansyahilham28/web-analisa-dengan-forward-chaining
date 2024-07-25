@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Pakar Diagnosa Kejiwaan</title>
+    <link rel="stylesheet" href="formlogin.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Selamat Datang di Sistem Pakar Diagnosa Kejiwaan</h1>
+            <p>Membantu memahami kesehatan mental Anda.</p>
+        </header>
+        <main>
+            <div class="login-box">
+                <h2>Login</h2>
+                <form id="loginForm">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <button type="submit">Login</button>
+                </form>
+                <p id="error-message" class="error-message"></p>
+                <p>Belum punya akun? <a href="#" id="register-link">Daftar di sini</a></p>
+            </div>
+            <div class="register-box" id="register-box" style="display: none;">
+                <h2>Daftar</h2>
+                <form id="registerForm">
+                    <label for="full-name">Nama Lengkap:</label>
+                    <input type="text" id="full-name" name="full-name" required>
+                    
+                    <label for="new-username">Username:</label>
+                    <input type="text" id="new-username" name="new-username" required>
+                    
+                    <label for="phone-number">No. HP:</label>
+                    <input type="text" id="phone-number" name="phone-number" required>
+                    
+                    <label>Jenis Kelamin:</label>
+                    <div class="gender-options">
+                        <input type="radio" id="pria" name="jenis-kelamin" value="pria" required>
+                        <label for="pria">Pria</label>
+                        <input type="radio" id="wanita" name="jenis-kelamin" value="wanita" required>
+                        <label for="wanita">Wanita</label>
+                    </div>
+                    
+                    <label for="address">Alamat:</label>
+                    <input type="text" id="address" name="address" required>
+                    
+                    <label for="consultation-date">Tanggal Konsultasi:</label>
+                    <input type="date" id="consultation-date" name="consultation-date" required>
+                    
+                    <button type="submit">Daftar</button>
+                </form>
+                <p id="register-error-message" class="error-message"></p>
+                    
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2024 Sistem Pakar Diagnosa Kejiwaan. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="formlogin.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.background-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background-color: #31363F;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0PX;
+  width: 100%;
+  height: 115%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.jumbotron {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  background: #e5f5d00e;
+  backdrop-filter: blur(2px);
+  padding: 55px 40px;
+  border-radius: 15px;
+  z-index: 2;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.jumbotron h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: white;
+}
+
+.jumbotron p {
+  margin: 10px 0;
+  font-size: 1.2em;
+  color: whitesmoke;
+}
+
+.btn-konsultasi,
+.btn-login {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-konsultasi {
+  background-color: #76ABAE;
+  color:black ;
+}
+
+.btn-login {
+  background-color: #EEEEEE;
+  color: black;
+}
+
+.btn-konsultasi:hover,
+.btn-login:hover {
+  opacity: 0.8;
+}
